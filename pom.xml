@@ -67,5 +67,7 @@
         <module>jpa-practice</module>
         <module>kafka-streams</module>
         <module>testing</module>
+        <module>reactive-programming</module>
+        <module>reactive-programming/reactive-programming-using-reactor</module>
     </modules>
 </project>

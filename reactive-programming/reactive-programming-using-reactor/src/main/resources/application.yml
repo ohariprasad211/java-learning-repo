@@ -1,0 +1,3 @@
+logging:
+  level:
+    reactor.core.publisher: DEBUG

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kafka-streams" />
-        <module name="jpa-practice" />
+        <module name="reactive-programming" />
+        <module name="reactive-programming-using-reactor" />
         <module name="core-java" />
-        <module name="springboot-basics" />
         <module name="testing" />
+        <module name="jpa-practice" />
+        <module name="springboot-basics" />
       </profile>
     </annotationProcessing>
   </component>
