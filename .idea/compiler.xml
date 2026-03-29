@@ -8,13 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kafka-streams" />
-        <module name="reactive-programming" />
-        <module name="reactive-programming-using-reactor" />
+        <module name="jpa-practice" />
         <module name="core-java" />
         <module name="testing" />
-        <module name="jpa-practice" />
         <module name="springboot-basics" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movies-info-service" target="17" />
+      <module name="reactive-programming" target="1.5" />
+      <module name="reactive-programming-using-reactor" target="17" />
+      <module name="reactive-programming_test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="movies-info-service" options="" />
+    </option>
   </component>
 </project>

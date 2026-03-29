@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- Parent project coordinates -->
-    <groupId>com.example</groupId>
+    <groupId>com.learning</groupId>
     <artifactId>java-learning-repo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -67,7 +67,5 @@
         <module>jpa-practice</module>
         <module>kafka-streams</module>
         <module>testing</module>
-        <module>reactive-programming</module>
-        <module>reactive-programming/reactive-programming-using-reactor</module>
     </modules>
 </project>
