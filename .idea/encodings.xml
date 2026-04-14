@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/core-java/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-structures-algorithms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-practice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-practice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-streams/src/main/java" charset="UTF-8" />

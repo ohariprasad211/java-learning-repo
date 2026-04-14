@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kafka-streams" />
+        <module name="data-structures-algorithms" />
         <module name="jpa-practice" />
         <module name="core-java" />
         <module name="testing" />
@@ -23,6 +24,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="data-structures-algorithms" options="-parameters" />
+      <module name="data-structures-algorithms.main" options="-parameters" />
+      <module name="data-structures-algorithms.test" options="-parameters" />
       <module name="movies-info-service" options="" />
     </option>
   </component>
