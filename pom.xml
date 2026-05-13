@@ -68,7 +68,6 @@
         <module>kafka-streams</module>
         <module>testing</module>
         <module>reactive-programming</module>
-        <module>reactive-programming/reactive-programming-using-reactor</module>
         <module>01_core-java</module>
         <module>02_exception-logging</module>
         <module>03_spring-boot-fundamentals</module>

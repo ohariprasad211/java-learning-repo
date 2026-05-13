@@ -19,7 +19,6 @@
         <module name="04_data-jpa" />
         <module name="07_microservices" />
         <module name="03_spring-boot-fundamentals" />
-        <module name="reactive-programming-using-reactor" />
         <module name="core-java" />
         <module name="05_testing-junit-mockito" />
         <module name="09_system-design" />
@@ -28,5 +27,8 @@
         <module name="springboot-basics" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="reactive-programming-using-reactor" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
