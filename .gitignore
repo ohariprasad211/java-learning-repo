@@ -1,24 +1,156 @@
-# Compiled class file
-*.class
+# =========================================================
+# Root .gitignore for multi-module Java / Spring Boot repo
+# =========================================================
 
-# Log file
+# -----------------------------
+# IntelliJ IDEA
+# -----------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Eclipse
+# -----------------------------
+.project
+.classpath
+.settings/
+
+# -----------------------------
+# NetBeans
+# -----------------------------
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# -----------------------------
+# Build folders
+# -----------------------------
+target/
+build/
+bin/
+out/
+
+# -----------------------------
+# Maven
+# -----------------------------
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# -----------------------------
+# Gradle
+# -----------------------------
+.gradle/
+
+# -----------------------------
+# Logs
+# -----------------------------
 *.log
+logs/
 
-# BlueJ files
-*.ctxt
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# -----------------------------
+# Java compiled files
+# -----------------------------
+*.class
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Keep wrapper jar if needed
+!gradle-wrapper.jar
+
+# -----------------------------
+# Test reports
+# -----------------------------
+surefire-reports/
+failsafe-reports/
+
+# -----------------------------
+# Spring Boot
+# -----------------------------
+application-local.yml
+application-dev.yml
+application-secret.yml
+
+# -----------------------------
+# Environment files
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Kafka / Local runtime
+# -----------------------------
+kafka-logs/
+zookeeper/
+tmp/
+
+# -----------------------------
+# Coverage reports
+# -----------------------------
+coverage/
+jacoco.exec
+/site/jacoco/
+
+# -----------------------------
+# Generated sources
+# -----------------------------
+generated/
+generated-sources/
+generated-test-sources/
+
+# -----------------------------
+# Mac/Linux temp files
+# -----------------------------
+*~
+*.swp
+
+# -----------------------------
+# Module specific ignores
+# Applies to:
+# 01_core-java
+# 02_exception-logging
+# 03_spring-boot-fundamentals
+# 04_data-jpa
+# 05_testing-junit-mockito
+# 06_advanced-java
+# 07_microservices
+# 08_kafka-integration
+# 09_system-design
+# 10_coding-challenges
+# 11_playground
+# 12_data_structure_algorithms
+# core-java
+# jpa-practice
+# kafka-streams
+# reactive-programming
+# springboot-basics
+# testing
+# -----------------------------
+
+**/target/
+**/build/
+**/.idea/
+**/*.iml
+**/out/
+
+# -----------------------------
+# Optional:
+# Keep README files tracked
+# -----------------------------
+!README.md

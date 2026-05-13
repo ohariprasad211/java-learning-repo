@@ -1,6 +1,6 @@
 package org.learning;
 
-public class ArgPassByValue {
+public class  ArgPassByValue {
     public static void main(String[] args) {
         //Primitive types are passed by value
         var ob = new Test();

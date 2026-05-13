@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.haridev</groupId>
-        <artifactId>java-learning-journey</artifactId>
-        <version>1.0.0</version>
+        <groupId>org.learning</groupId>
+        <artifactId>java-learning-repo</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>

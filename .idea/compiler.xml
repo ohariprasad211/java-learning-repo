@@ -7,12 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kafka-streams" />
         <module name="reactive-programming" />
+        <module name="08_kafka-integration" />
+        <module name="12_data_structure_algorithms" />
+        <module name="testing" />
+        <module name="10_coding-challenges" />
+        <module name="01_core-java" />
+        <module name="06_advanced-java" />
+        <module name="11_playground" />
+        <module name="kafka-streams" />
+        <module name="04_data-jpa" />
+        <module name="07_microservices" />
+        <module name="03_spring-boot-fundamentals" />
         <module name="reactive-programming-using-reactor" />
         <module name="core-java" />
-        <module name="testing" />
+        <module name="05_testing-junit-mockito" />
+        <module name="09_system-design" />
         <module name="jpa-practice" />
+        <module name="02_exception-logging" />
         <module name="springboot-basics" />
       </profile>
     </annotationProcessing>

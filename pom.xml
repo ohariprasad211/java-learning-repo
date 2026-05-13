@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- Parent project coordinates -->
-    <groupId>com.example</groupId>
+    <groupId>org.learning</groupId>
     <artifactId>java-learning-repo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -69,5 +69,17 @@
         <module>testing</module>
         <module>reactive-programming</module>
         <module>reactive-programming/reactive-programming-using-reactor</module>
+        <module>01_core-java</module>
+        <module>02_exception-logging</module>
+        <module>03_spring-boot-fundamentals</module>
+        <module>04_data-jpa</module>
+        <module>05_testing-junit-mockito</module>
+        <module>06_advanced-java</module>
+        <module>07_microservices</module>
+        <module>08_kafka-integration</module>
+        <module>09_system-design</module>
+        <module>10_coding-challenges</module>
+        <module>11_playground</module>
+        <module>12_data_structure_algorithms</module>
     </modules>
 </project>
