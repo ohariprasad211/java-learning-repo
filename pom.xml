@@ -80,5 +80,6 @@
         <module>10_coding-challenges</module>
         <module>11_playground</module>
         <module>12_data_structure_algorithms</module>
+        <module>Utility</module>
     </modules>
 </project>

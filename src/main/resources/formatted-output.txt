@@ -1,0 +1,35 @@
+2026-05-20T11:43:40.254Z : AIL Message:
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Message msgId="2157096" timeStamp="2026-05-20T11:43:40.244Z">
+    <WaStatusEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WaCreated">
+        <Che name="E11" operationalState="Online" spreaderMode="Single"/>
+        <Job carryMode="Single" moveKind="VslDsch" requiredRehandleCount="0" uid="1">
+            <PickTarget relativePos="Ctr">
+                <Container grossWeightKg="3940" heightMm="2896" isHazardous="false" isoCode="4H" isoId="BEAU6381679" isoLenFt="40"/>
+                <Position isItv="true" lane="0" orientation="Aft" posOnChassis="2" truckId="332" twistLockType="NonSpecific" xsi:type="TruckSlot">
+                    <LocationConditions/>
+                </Position>
+            </PickTarget>
+            <PlaceTarget relativePos="Ctr">
+                <Container grossWeightKg="3940" heightMm="2896" isHazardous="false" isoCode="4H" isoId="BEAU6381679" isoLenFt="40"/>
+                <Position block="10J" col="E" doorDirection="North" orientation="Aft" row="26" tier="3" xsi:type="YardSlot">
+                    <LocationConditions/>
+                </Position>
+            </PlaceTarget>
+        </Job>
+    </WaStatusEvent>
+</Message>
+
+
+2026-05-20T11:43:40.908Z : BMS Message:
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="20260520144340901" timeStamp="2026-05-20T14:43:40.9014674+03:00">
+    <CheActivityEvent>
+        <Activity action="ArrivedAtLocation" xsi:type="CheDriveActivity">
+            <Location block="11B" row="39" xsi:type="YardSection"/>
+        </Activity>
+        <Che equipType="Rtg" name="R112"/>
+    </CheActivityEvent>
+</Message>
+
+

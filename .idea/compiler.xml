@@ -18,8 +18,8 @@
         <module name="kafka-streams" />
         <module name="04_data-jpa" />
         <module name="07_microservices" />
+        <module name="Utility" />
         <module name="03_spring-boot-fundamentals" />
-        <module name="core-java" />
         <module name="05_testing-junit-mockito" />
         <module name="09_system-design" />
         <module name="jpa-practice" />
@@ -28,6 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="core-java" target="17" />
       <module name="reactive-programming-using-reactor" target="17" />
     </bytecodeTargetLevel>
   </component>
