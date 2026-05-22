@@ -21,7 +21,9 @@ public class LogFormatter {
 
     public static void main(String[] args) throws Exception {
         /**
-         * Grafana Query:  |~ `receiveRTGMessage|Payload: <Message`
+         * Query to extract the relevant log lines from Grafana: Xml-mq adapter logs contain both BMS and AIL messages.
+         * To filter and format these logs for better readability, you can use the following Grafana query:
+         * Grafana Query:  |~ `receiveRTGMessage|Payload: <Message`|~`R101|System`
          */
         Path inputFile = Path.of("C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt");
         Path outputFile = Path.of("C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt");
