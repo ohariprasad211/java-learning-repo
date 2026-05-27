@@ -34,8 +34,14 @@ public class LogFormatter {
          * |~ `receiveRTGMessage|Payload: <Message|System`
          * |= `R101`|~`receiveRTGMessage|Received ECN4 message with Key:|Payload: <Message`|= `20260524094825192`
          */
-        Path inputFile = Path.of("C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt");
-        Path outputFile = Path.of("C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt");
+        Path inputFile = Path.of(
+//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+        );
+        Path outputFile = Path.of(
+//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
+                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
+        );
 
         String content = Files.readString(inputFile);
 

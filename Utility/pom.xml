@@ -24,6 +24,12 @@
             <version>4.1.0-M1</version>
             <scope>compile</scope>
         </dependency>
+        <!--AIL dependencies-->
+        <dependency>
+            <groupId>com.apmt.ail</groupId>
+            <artifactId>apmt-tiaim-ail-data-model</artifactId>
+            <version>1.0.393</version>
+        </dependency>
     </dependencies>
 
 </project>
