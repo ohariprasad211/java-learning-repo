@@ -1,0 +1,321 @@
+2026-05-26T00:38:00.122Z : AIL Message
+MsgId : 455983
+<Message msgId="455983" timeStamp="2026-05-26T00:38:00.111Z">
+    <WaStatusEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WaListUpdated">
+        <Che name="S06" operationalState="Online"/>
+        <JobList>
+            <Job moveKind="Yard" uid="7">
+                <PickTarget relativePos="Ctr">
+                    <Container grossWeightKg="19520" heightMm="0" isoCode="45R8" isoId="MNBU3664542" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="03P" col="B" doorDirection="North" orientation="Aft" row="26" tier="1" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PickTarget>
+                <PlaceTarget relativePos="Ctr">
+                    <Container grossWeightKg="19520" heightMm="0" isoCode="45R8" isoId="MNBU3664542" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="FLD" xsi:type="YardBlock">
+                        <LocationConditions/>
+                    </Position>
+                </PlaceTarget>
+            </Job>
+            <Job moveKind="Yard" uid="8">
+                <PickTarget relativePos="Ctr">
+                    <Container grossWeightKg="22316" heightMm="0" isoCode="4RH" isoId="MCAU5009685" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="03P" col="A" doorDirection="North" orientation="Aft" row="26" tier="1" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PickTarget>
+                <PlaceTarget relativePos="Ctr">
+                    <Container grossWeightKg="22316" heightMm="0" isoCode="4RH" isoId="MCAU5009685" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="02G" col="F" doorDirection="North" orientation="Aft" row="30" tier="4" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PlaceTarget>
+            </Job>
+            <Job moveKind="Yard" uid="9">
+                <PickTarget relativePos="Ctr">
+                    <Container grossWeightKg="10106" heightMm="0" isoCode="4RH" isoId="MNBU0364599" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="03P" col="A" doorDirection="North" orientation="Aft" row="18" tier="1" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PickTarget>
+                <PlaceTarget relativePos="Ctr">
+                    <Container grossWeightKg="10106" heightMm="0" isoCode="4RH" isoId="MNBU0364599" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="02G" col="E" doorDirection="North" orientation="Aft" row="30" tier="4" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PlaceTarget>
+            </Job>
+            <Job moveKind="Yard" uid="10">
+                <PickTarget relativePos="Ctr">
+                    <Container grossWeightKg="33775" heightMm="0" isoCode="4RH" isoId="MNBU4173332" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="03P" col="A" doorDirection="North" orientation="Aft" row="22" tier="1" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PickTarget>
+                <PlaceTarget relativePos="Ctr">
+                    <Container grossWeightKg="33775" heightMm="0" isoCode="4RH" isoId="MNBU4173332" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="09H" col="G" doorDirection="North" orientation="Aft" row="06" tier="1" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PlaceTarget>
+            </Job>
+            <Job moveKind="Yard" uid="11">
+                <PickTarget relativePos="Ctr">
+                    <Container grossWeightKg="30840" heightMm="0" isoCode="4RH" isoId="MMAU1427603" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="03P" col="B" doorDirection="North" orientation="Aft" row="22" tier="1" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PickTarget>
+                <PlaceTarget relativePos="Ctr">
+                    <Container grossWeightKg="30840" heightMm="0" isoCode="4RH" isoId="MMAU1427603" isoLenFt="40" reeferDesiredPowerStatus="Off" reeferPowerStatus="Off"/>
+                    <Position block="07G" col="B" doorDirection="North" orientation="Aft" row="50" tier="1" xsi:type="YardSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PlaceTarget>
+            </Job>
+            <Job moveKind="Yard" requiredRehandleCount="1" uid="12">
+                <PickTarget relativePos="Ctr">
+                    <Container grossWeightKg="18980" heightMm="0" isoCode="4H" isoId="MRSU4598941" isoLenFt="40"/>
+                    <Position isItv="true" lane="0" orientation="Aft" posOnChassis="2" truckId="368" xsi:type="TruckSlot">
+                        <LocationConditions/>
+                    </Position>
+                </PickTarget>
+                <PlaceTarget relativePos="Ctr">
+                    <Container grossWeightKg="18980" heightMm="0" isoCode="4H" isoId="MRSU4598941" isoLenFt="40"/>
+                    <Position block="WZN" xsi:type="YardBlock">
+                        <LocationConditions/>
+                    </Position>
+                </PlaceTarget>
+            </Job>
+        </JobList>
+    </WaStatusEvent>
+</Message>
+
+2026-05-26T00:38:01.002Z : AIL Message
+MsgId : 455984
+<Message msgId="455984" timeStamp="2026-05-26T00:38:00.991Z">
+    <WaStatusEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WaCreated">
+        <Che equipType="Rtg" name="R67" operationalState="Online" spreaderMode="Single"/>
+        <Job carryMode="Single" moveKind="VslDsch" requiredRehandleCount="0" uid="1">
+            <PickTarget relativePos="Ctr">
+                <Container grossWeightKg="31150" heightMm="2896" isHazardous="false" isoCode="4H" isoId="HAMU4168152" isoLenFt="40"/>
+                <Position isItv="true" lane="0" orientation="Aft" posOnChassis="2" truckId="217" twistLockType="NonSpecific" xsi:type="TruckSlot">
+                    <LocationConditions/>
+                </Position>
+            </PickTarget>
+            <PlaceTarget relativePos="Ctr">
+                <Container grossWeightKg="31150" heightMm="2896" isHazardous="false" isoCode="4H" isoId="HAMU4168152" isoLenFt="40"/>
+                <Position block="06H" col="E" doorDirection="North" orientation="Aft" row="68" tier="1" xsi:type="YardSlot">
+                    <LocationConditions/>
+                </Position>
+            </PlaceTarget>
+        </Job>
+    </WaStatusEvent>
+</Message>
+
+2026-05-26T00:38:06.100Z : AIL Message
+MsgId : 886850002
+Time Taken : 804 ms
+<Message msgId="886850002" timeStamp="2026-05-26T00:38:06.090Z">
+    <WaStatusEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WaUpdated">
+        <Che equipType="Rtg" name="R88" operationalState="Online" spreaderMode="Single"/>
+        <Job carryMode="Single" moveKind="VslDsch" requiredRehandleCount="0" uid="1">
+            <PickTarget relativePos="Ctr">
+                <Container grossWeightKg="12590" heightMm="2896" isHazardous="false" isoCode="4H" isoId="MRSU3865806" isoLenFt="40"/>
+                <Position isItv="true" lane="0" orientation="Aft" posOnChassis="2" truckId="355" twistLockType="NonSpecific" xsi:type="TruckSlot">
+                    <LocationConditions/>
+                </Position>
+            </PickTarget>
+            <PlaceTarget relativePos="Ctr">
+                <Container grossWeightKg="12590" heightMm="2896" isHazardous="false" isoCode="4H" isoId="MRSU3865806" isoLenFt="40"/>
+                <Position block="11E" col="C" doorDirection="North" orientation="Aft" row="48" tier="3" xsi:type="YardSlot">
+                    <LocationConditions/>
+                </Position>
+            </PlaceTarget>
+        </Job>
+    </WaStatusEvent>
+</Message>
+
+2026-05-26T00:39:44.009Z : BMS Message
+MsgId : 887830001
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="887830001" timeStamp="2026-05-26T03:39:43.9975917+03:00">
+    <WaStatusEvent xsi:type="WaAccepted">
+        <Che equipType="Rtg" name="R88"/>
+        <Container isoId="MRKU3459790"/>
+    </WaStatusEvent>
+</Message>
+
+2026-05-26T00:39:48.303Z : AIL Message
+MsgId : 456089
+<Message msgId="456089" timeStamp="2026-05-26T00:39:48.293Z">
+    <WaStatusEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="WaCancelled">
+        <Che equipType="Rtg" name="R107" operationalState="Online"/>
+        <CancelMessage code="0">No Error</CancelMessage>
+    </WaStatusEvent>
+</Message>
+
+
+2026-05-26T00:40:03.406Z : BMS Message
+MsgId : 20260526033955341
+PingId : 887910001
+Time Taken : 11092 ms
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="20260526033955341" pingId="887910001" pong="true" timeStamp="2026-05-26T03:39:55.3417488+03:00">
+    <AckEvent status="OK" xsi:type="WaCreatedResponse">
+        <AckMessage code=""/>
+        <Che equipType="Rtg" name="R93"/>
+    </AckEvent>
+</Message>
+
+2026-05-26T00:40:21.411Z : AIL Message
+MsgId : 888200001
+PingId : 888200001
+Time Taken : 1099 ms
+<Message msgId="888200001" pingId="888200001" pong="true" timeStamp="2026-05-26T00:40:21.400Z">
+    <AckEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Ok" xsi:type="CheActivityResponse">
+        <AckMessage code="517">Lifted MRKU3459790</AckMessage>
+        <Che equipType="Rtg" name="R88" operationalState="Online" spreaderMode="Single"/>
+    </AckEvent>
+</Message>
+
+2026-05-26T00:45:45.842Z : AIL Message
+MsgId : 891450001
+PingId : 891450001
+Time Taken : 676 ms
+<Message msgId="891450001" pingId="891450001" pong="true" timeStamp="2026-05-26T00:45:45.831Z">
+    <AckEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Ok" xsi:type="OpStateUpdatedResponse">
+        <AckMessage code="0">No Error</AckMessage>
+        <Che equipType="Rtg" name="R112" operationalState="Offline"/>
+    </AckEvent>
+</Message>
+
+2026-05-26T00:45:58.046Z : AIL Message
+MsgId : 891570001
+PingId : 891570001
+Time Taken : 693 ms
+<Message msgId="891570001" pingId="891570001" pong="true" timeStamp="2026-05-26T00:45:58.034Z">
+    <AckEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="Ok" xsi:type="WaAcceptedResponse">
+        <AckMessage code="0">No Error</AckMessage>
+        <Che equipType="Rtg" name="R93" operationalState="Online" spreaderMode="Single"/>
+    </AckEvent>
+</Message>
+
+2026-05-26T00:45:59.901Z : BMS Message
+MsgId : 20260526034556358
+PingId : 891540001
+Time Taken : 4504 ms
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="20260526034556358" pingId="891540001" pong="true" timeStamp="2026-05-26T03:45:56.3585523+03:00">
+    <AckEvent status="OK" xsi:type="WaListUpdatedResponse">
+        <AckMessage code=""/>
+        <Che equipType="Rtg" name="R88"/>
+    </AckEvent>
+</Message>
+
+2026-05-26T00:46:36.176Z : BMS Message
+MsgId : 20260526034632211
+PingId : 891900002
+Time Taken : 4473 ms
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="20260526034632211" pingId="891900002" pong="true" timeStamp="2026-05-26T03:46:32.2118525+03:00">
+    <AckEvent status="OK" xsi:type="WaUpdatedResponse">
+        <AckMessage code=""/>
+        <Che equipType="Rtg" name="R93"/>
+    </AckEvent>
+</Message>
+
+2026-05-26T00:47:56.938Z : BMS Message
+MsgId : 892760001
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="892760001" timeStamp="2026-05-26T03:47:56.9336376+03:00">
+    <CheActivityEvent>
+        <Activity action="ArrivedAtDest" xsi:type="CheDriveActivity">
+            <Location area="11C" bay="73" isItv="true" lane="0" posOnChassis="3" truckId="314" xsi:type="TruckSlot"/>
+        </Activity>
+        <Che equipType="Rtg" name="R93"/>
+    </CheActivityEvent>
+</Message>
+
+2026-05-26T00:49:06.518Z : BMS Message
+MsgId : 893460001
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="893460001" timeStamp="2026-05-26T03:49:06.5148921+03:00">
+    <CheActivityEvent>
+        <Activity action="ArrivedAtOrigin" xsi:type="CheDriveActivity">
+            <Location block="11C" col="G" row="73" tier="1" xsi:type="YardSlot"/>
+        </Activity>
+        <Che equipType="Rtg" name="R93"/>
+    </CheActivityEvent>
+</Message>
+
+2026-05-26T00:51:24.850Z : BMS Message
+MsgId : 894840001
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="894840001" timeStamp="2026-05-26T03:51:24.845476+03:00">
+    <CheActivityEvent>
+        <Activity action="ArrivedAtLocation" xsi:type="CheDriveActivity">
+            <Location block="11C" row="71" xsi:type="YardSection"/>
+        </Activity>
+        <Che equipType="Rtg" name="R93"/>
+    </CheActivityEvent>
+</Message>
+
+2026-05-26T00:51:50.239Z : BMS Message
+MsgId : 895100002
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="895100002" timeStamp="2026-05-26T03:51:50.2233135+03:00">
+    <CheActivityEvent>
+        <Activity action="PickSingle" xsi:type="ContainerActivity">
+            <PickTarget relativePos="Aft">
+                <Container isoId="TCLU3090475" isoLenFt="20"/>
+                <Position area="11D" bay="13" isItv="true" lane="0" posOnChassis="3" truckId="260" xsi:type="TruckSlot"/>
+            </PickTarget>
+        </Activity>
+        <Che equipType="Rtg" name="R108"/>
+    </CheActivityEvent>
+</Message>
+
+2026-05-26T00:52:48.471Z : BMS Message
+MsgId : 895680002
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="895680002" timeStamp="2026-05-26T03:52:48.4673674+03:00">
+    <CheActivityEvent>
+        <Activity action="PlaceSingle" xsi:type="ContainerActivity">
+            <PlaceTarget relativePos="Ctr">
+                <Container isoId="TCLU3090475" isoLenFt="20"/>
+                <Position block="11D" col="C" row="13" tier="1" xsi:type="YardSlot"/>
+            </PlaceTarget>
+        </Activity>
+        <Che equipType="Rtg" name="R108"/>
+    </CheActivityEvent>
+</Message>
+
+2026-05-26T01:00:40.061Z : BMS Message
+MsgId : 900400001
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="900400001" timeStamp="2026-05-26T04:00:40.0564448+03:00">
+    <CheStatusEvent xsi:type="OpStateUpdated">
+        <Che equipType="Rtg" mode="RemoteOperatorControl" name="R110" operationalState="Online" operatorId="1017" operatorState="Engaged" rosId="ROS4"/>
+    </CheStatusEvent>
+</Message>
+
+2026-05-26T01:04:29.722Z : BMS Message
+MsgId : 902690001
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Message xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" msgId="902690001" timeStamp="2026-05-26T04:04:29.7189402+03:00">
+    <CheStatusEvent xsi:type="OpStateUpdated">
+        <Che equipType="Rtg" mode="RemoteOperatorControl" name="R93" operationalState="Online" operatorId="" operatorState="Disengaged" rosId=""/>
+    </CheStatusEvent>
+</Message>
+
+2026-05-26T00:57:28.209Z : AIL Message
+MsgId : 898480001
+PingId : 898480001
+Time Taken : 18 ms
+<Message msgId="898480001" pingId="898480001" pong="true" timeStamp="2026-05-26T00:57:28.199Z">
+    <SystemEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SystemException">
+        <SystemMessage code="201">Invalid XML message received: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 102; cvc-complex-type.4: Attribute 'truckId' must appear on element 'Position'.</SystemMessage>
+    </SystemEvent>
+</Message>

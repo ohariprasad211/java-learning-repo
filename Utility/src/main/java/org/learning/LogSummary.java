@@ -26,13 +26,13 @@ public class LogSummary {
     public static void main(String[] args) throws Exception {
 
         Path inputFile = Path.of(
-                //"C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
-                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+//                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
         );
 
         Path outputFile = Path.of(
-//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/summary.txt"
-                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/summary.txt"
+                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/summary.txt"
+//                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/summary.txt"
         );
 
         String content = Files.readString(inputFile);
