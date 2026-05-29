@@ -35,18 +35,18 @@ public class LogFormatter {
          * |= `R101`|~`receiveRTGMessage|Received ECN4 message with Key:|Payload: <Message`|= `20260524094825192`
          */
         Path inputFile = Path.of(
-                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
-//                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
         );
         Path outputFile = Path.of(
-                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
-//                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
+//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
+                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
         );
 
         String content = Files.readString(inputFile);
 
         Pattern pattern = Pattern.compile(
-                "(\\d{4}-\\d{2}-\\d{2}T\\S+).*?Payload:\\s*(<\\?xml.*?</Message>|<Message.*?</Message>)",
+                "(\\d{4}-\\d{2}-\\d{2}T\\S+).*?Payload:\\s*(AIL|ECS)\\s+Message:\\s*(<\\?xml.*?</Message>|<Message.*?</Message>)",
                 Pattern.DOTALL
         );
 
@@ -63,13 +63,10 @@ public class LogFormatter {
         while (matcher.find()) {
 
             String timestamp = matcher.group(1);
-            String payload = matcher.group(2).trim();
-
-            boolean isBms = payload.startsWith("<?xml");
-
-            String type = isBms
-                    ? "BMS Message"
-                    : "AIL Message";
+            String sourceType = matcher.group(2);
+            String payload = matcher.group(3).trim();
+            boolean isBms = "ECS".equals(sourceType);
+            String type = sourceType + " Message";
 
             String formattedXml = formatXml(payload);
 
