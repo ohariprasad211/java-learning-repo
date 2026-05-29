@@ -35,12 +35,12 @@ public class LogFormatter {
          * |= `R101`|~`receiveRTGMessage|Received ECN4 message with Key:|Payload: <Message`|= `20260524094825192`
          */
         Path inputFile = Path.of(
-//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
-                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
+//                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/input.txt"
         );
         Path outputFile = Path.of(
-//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
-                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
+                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
+//                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
         );
 
         String content = Files.readString(inputFile);
@@ -208,13 +208,13 @@ public class LogFormatter {
 
         long bmsCount = summaryEntries.stream()
                 .filter(entry ->
-                        "BMS Message".equals(entry.type)
+                        "ECS Message".equals(entry.type)
                                 && entry.timeTaken != null)
                 .count();
 
         double bmsAverage = summaryEntries.stream()
                 .filter(entry ->
-                        "BMS Message".equals(entry.type)
+                        "ECS Message".equals(entry.type)
                                 && entry.timeTaken != null)
                 .mapToLong(entry -> entry.timeTaken)
                 .average()
@@ -234,11 +234,11 @@ public class LogFormatter {
                 .average()
                 .orElse(0);
 
-        output.append("BMS Message Count : ")
+        output.append("ECS Message Count : ")
                 .append(bmsCount)
                 .append("\n");
 
-        output.append("BMS Message Average Time Taken : ")
+        output.append("ECS Message Average Time Taken : ")
                 .append(String.format("%.2f", bmsAverage))
                 .append(" ms\n\n");
 
