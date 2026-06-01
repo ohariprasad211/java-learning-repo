@@ -48,8 +48,10 @@ public class LogProcessor {
         /*
          * Extract log timestamp + payload together
          */
-        Pattern pattern = Pattern.compile("(\\d{4}-\\d{2}-\\d{2}T\\S+).*?Payload:\\s*(<\\?xml.*?</Message>|<Message.*?</Message>)", Pattern.DOTALL);
-
+        Pattern pattern = Pattern.compile(
+                "(\\d{4}-\\d{2}-\\d{2}T\\S+).*?Payload:\\s*(AIL|ECS)\\s+Message:\\s*(<\\?xml.*?</Message>|<Message.*?</Message>)",
+                Pattern.DOTALL
+        );
         /**
          * Pattern matching to get Che name for
          * WaListUpdatedResponse
@@ -97,13 +99,14 @@ public class LogProcessor {
         while (matcher.find()) {
 
             String logTimestamp = matcher.group(1);
-
-            String payload = matcher.group(2);
+            String sourceType = matcher.group(2);
+            String payload = matcher.group(3).trim();
+            boolean isBms = "ECS".equals(sourceType);
 
             /*
              * Source
              */
-            String source = payload.startsWith("<?xml") ? "BMS" : "AIL";
+            String source = sourceType;
 
             Message xmlMessage = Utils.getXmlObject(payload, Message.class);
 
