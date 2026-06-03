@@ -41,7 +41,8 @@ public class LogProcessor {
 //                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/formatted-output.txt"
         );
         Path excelFile = Path.of(
-                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/summary_report.xlsx"
+//                "C:/Drive/MyCodeBase/GitCodeBase/java-learning-repo/Utility/src/main/resources/summary_report.xlsx"
+                "C:/Drive/MyCodeBase/java-learning-repo/Utility/src/main/resources/summary_report.xlsx"
         );
         String content = Files.readString(inputFile);
 
@@ -246,7 +247,13 @@ public class LogProcessor {
                 if (activity.getActivity() instanceof ContainerActivity containerActivity) {
                     eventType = "ContainerActivity";
                     if (nonNull(containerActivity.getAction())) {
-                        action = containerActivity.getAction().toString();
+                        action = containerActivity.getAction().value();
+                        if(action.equalsIgnoreCase("picksingle")){
+                            fromPosition = getPositionData(containerActivity.getPickTarget().get(0).getPosition());
+                        }
+                        if(action.equalsIgnoreCase("placesingle")){
+                            toPosition = getPositionData(containerActivity.getPlaceTarget().get(0).getPosition());
+                        }
                     }
                 }
             }
